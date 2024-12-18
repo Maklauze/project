@@ -1,0 +1,50 @@
+header{
+    background-color: rgb(171, 170, 170);
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.l{
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+
+    
+
+}
+
+
+.l2{
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    display: inline-block;
+    height: 88px;
+    line-height: 88px;
+    width: 110px;
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+    transition: background 0.2s linear;
+}
+
+.menu a:hover{
+    background-color: white;
+}
