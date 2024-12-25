@@ -19,8 +19,8 @@ header{
 
 
 .l2{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 
     display: flex;
 }
@@ -47,4 +47,85 @@ header{
 
 .menu a:hover{
     background-color: white;
+}
+
+.post1{
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+
+    display: block;
+    margin: 10px auto 5px;
+    border-radius: 20px;
+}
+
+.post1_header{
+    display: flex;
+}
+
+.post1_ava{
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+    margin-top: 10px;
+
+}
+
+.post1_header h1{
+    font-size: 50px;
+
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+.post1_ops{
+    width: 20px;
+    height: 20px;
+    
+    margin: 10px;
+    margin-left: 190px;
+
+}
+
+.post1_main{
+    margin: 30px;
+}
+
+.post1_main img{
+    height: 250px;
+    margin-left: 250px;
+    
+}
+
+.post1_footer{
+    margin: 10px;
+
+}
+
+footer{
+    background-color: rgb(171, 170, 170);
+    margin-top: 50px;
+    display: flex;
+}
+
+.logo_footer{
+    margin: 20px;
+}
+
+.logo_footer img{
+    height: 200px;
+}
+
+.soc{
+    margin: 20px;
+}
+
+.soc img{
+    height: 50px;
+}
+
+.footer_text{
+    margin: 100px;
 }
